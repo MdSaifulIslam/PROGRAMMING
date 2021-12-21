@@ -4,6 +4,8 @@ int main(void){
 
     int n, i, count = 0;
     scanf("%d", &n);
+
+    //loop for summing the zeroes
     
     for(i = 5; n/i>1; i *= 5){
         count += n/i;
